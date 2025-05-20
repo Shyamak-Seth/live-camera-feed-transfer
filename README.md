@@ -1,0 +1,1 @@
+This tool allows you to transfer a live camera stream from a client to a server, with completely customizable options for flexibility.
