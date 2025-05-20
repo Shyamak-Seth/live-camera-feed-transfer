@@ -1,6 +1,7 @@
 import cv2
 import requests
 import time
+import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-f', '--fps', type=int, default=10, help="Specify the stream's FPS (default: 10)")
