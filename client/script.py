@@ -19,7 +19,7 @@ COUNT = 0
 COMPRESSION = [cv2.IMWRITE_JPEG_QUALITY, QUALITY]
 HEADERS = {'Connection': 'keep-alive'}
 HOST_STR = ""
-if HOST.startswith("http://"):
+if HOST.startswith("http://") or HOST.startswith('https://'):
     HOST_STR = HOST + ':' + str(PORT)
 else:
     HOST_STR = 'http://' + HOST + ':' + str(PORT)
